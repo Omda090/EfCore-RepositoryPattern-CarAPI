@@ -38,7 +38,7 @@ namespace EfCore_RepositoryPattern_CarAPI.Dal.Repositories
 
         public async Task<bool> SaveChanges()
         {
-            return await _ctx.SaveChangesAsync()>0;
+              return await _ctx.SaveChangesAsync()>0;
         }
 
         public Task GetAllCarsAsync()
